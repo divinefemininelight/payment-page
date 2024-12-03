@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Payment Page</title>
+</head>
+<body>
+  <h2>Pay for Your Service</h2>
+  <form action="https://secure.cybersource.com/checkout" method="POST">
+    <label for="amount">Amount</label>
+    <input type="text" name="amount" value="50.00" />
+
+    <label for="currency">Currency</label>
+    <input type="text" name="currency" value="USD" />
+
+    <label for="description">Payment Description</label>
+    <input type="text" name="description" value="Service Payment" />
+
+    <input type="submit" value="Pay Now" />
+  </form>
+</body>
+</html>
